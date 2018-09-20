@@ -1,3 +1,12 @@
+--
 title: "LinuxTurtle's Lair"
+timezone: America/Denver
+collections:
+  posts:
+    title: Posts
+    output: true
 description: "Musings and ramblings of the LinuxTurtle"
+reading_time: true
+words_per_minute: 200
+url: https://blog.linuxturtle.net
 theme: jekyll-theme-architect
