@@ -1,2 +1,2 @@
-{% avatar {{ site.owner.github }} size=200 %}
+#{% avatar {{ site.owner.github }} size=200 %}
 ## Under Construction
