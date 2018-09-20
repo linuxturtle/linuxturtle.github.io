@@ -94,6 +94,25 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude:
+- demo/*
+- config
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE/*
+- log
+- tmp
+- less
+- test
+- spec
+- Gruntfile.js
+- package.json
+- node_modules
 gems: [jekyll-paginate]
-remote_theme: neo-hpstr-jekyll-theme
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-gist
