@@ -1,8 +1,9 @@
-title:            Linuxturtle\'s Lair
-description:      Musings and snappings from Linuxturtle
+title:            LinuxTurtle's Lair
+description:      Musings and snappings from LinuxTurtle
 
 # put your disqus here
-disqus_shortname: reading_time:     true # if true, shows the estimated reading time for a post
+disqus_shortname: 
+reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
@@ -26,18 +27,20 @@ menu:
     type: 'categories'
   - title: 'Favorites'
     url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+  - title: 'About'
+    url: '/about'
+#    submenu:
+#      - title: 'Code Highlighter'
+#        url: '/intro/code-highlighting-post/'
+#      - title: 'Sample Post'
+#        url: '/intro/sample-post/'
 
 # Owner/author information
 owner:
   name:           Brett Johnson (linuxturtle)
   site:           http://blog.linuxturtle.net
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "I like turtles. I also like Linux. You might say I'm a geek :)"
   email:          blog@linuxturtle.net
   # Twitter nick for use in Twitter cards and follow button.
   twitter: linuxturtle # if no twitter in this config, the twitter follow button will be removed
