@@ -117,3 +117,5 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-gist
+
+theme: neo-hpstr-jekyll-theme
