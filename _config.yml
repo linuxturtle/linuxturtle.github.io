@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://blog.linuxturtle.net
+url: https://blog.linuxturtle.net
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -36,7 +36,7 @@ menu:
 # Owner/author information
 owner:
   name:           Brett Johnson (linuxturtle)
-  site:           http://blog.linuxturtle.net
+  site:           https://blog.linuxturtle.net
   avatar:         images/avatar.jpg
   bio:            "I like turtles. I also like Linux. You might say I'm a geek :)"
   email:          brett@linuxturtle.net
@@ -118,4 +118,4 @@ plugins:
 - jekyll-seo-tag
 - jekyll-gist
 
-theme: neo-hpstr-jekyll-theme
+fork-theme: neo-hpstr-jekyll-theme
