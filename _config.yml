@@ -23,9 +23,9 @@ menu:
     url: '/'
   - title: 'Tags'
     url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
+  - title: 'Posts'
+    url: '/posts'
+    type: 'posts'
 #  - title: 'Favorites'
 #    url: '#'
   - title: 'About'
@@ -75,8 +75,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:posts/:title/
+# https://jekyllrb.com/docs/permalinks/
+permalink:  pretty
 
 # Amount of post to show on home page
 paginate: 5
@@ -110,6 +110,7 @@ exclude:
 - Gruntfile.js
 - package.json
 - node_modules
+
 plugins:
 - jekyll-avatar
 - jekyll-feed
