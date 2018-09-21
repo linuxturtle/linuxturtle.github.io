@@ -1,5 +1,6 @@
+---
 title:            LinuxTurtle's Lair
-description:      Musings and snappings from LinuxTurtle
+description:      Musings and snappings from the LinuxTurtle
 
 # put your disqus here
 disqus_shortname: 
@@ -75,7 +76,7 @@ sass:
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:   /:posts/:title/
 
 # Amount of post to show on home page
 paginate: 5
@@ -109,7 +110,6 @@ exclude:
 - Gruntfile.js
 - package.json
 - node_modules
-gems: [jekyll-paginate]
 plugins:
 - jekyll-avatar
 - jekyll-feed
